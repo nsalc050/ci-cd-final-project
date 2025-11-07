@@ -44,7 +44,7 @@ spec:
     - name: args
       description: Arguments to pass to nose
       type: string
-      defsult: "-v"
+      default: "-v"
   steps:
     - name: nosetests
       image: python:3.9-slim
